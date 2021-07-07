@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #5d8fc9;
+}
+
+.container {
+  width: 450px;
+  height: 390px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.head {
+  text-align: center;
+  font-weight: 600;
+  color: rgba(26, 26, 26, 0.733);
+}
+
+.form {
+  padding: 20px;
+}
+
+.input {
+  width: 100%;
+  height: 50px;
+  margin: 15px 10px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #1da0f225;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  margin: 15px 10px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  background-color: #2466b1;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+  letter-spacing: 2px;
+}
+.btn:hover {
+  transform: scale(0.9);
+  background-color: #3774bb;
+}
+
+/* footer icon */
+.footer {
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 0 20px;
+  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.icon:hover {
+  margin-top: -20px;
+}
+
+#twitter {
+  background-color: #1da1f2;
+}
+
+#insta {
+  background-color: #fc3c1a;
+}
+
+#facebook {
+  background-color: #3b5998;
+}
+
+.fab {
+  color: #fff;
+  font-size: 25px;
+}
